@@ -6,6 +6,24 @@ As a Business Analyst consultant for Marks &amp; Spencer, I developed an end-to-
 This project delivers a robust analytical framework for Marks & Spencer’s regional leadership in Scotland. By integrating **Stochastic Risk Modeling** and **Linear Programming (Simplex LP)**, I developed a system to minimize logistics overheads and quantify financial risks across 9 key retail locations.
 
 ---
+Project overview 
+
+1. The Challenge
+I was tasked with acting as a Consultant Analyst to evaluate the operational performance of 9 regional Marks & Spencer branches in Scotland. The business was facing three core problems:
+* Data Integrity: Messy, high-variance sales data that made forecasting unreliable.
+* Operational Risk: Uncertainty regarding the probability of daily profit vs. fixed overheads in specific locations (Aberdeen).
+* Logistical Inefficiency: Rising transportation costs between regional hubs and the central distribution centre.
+2. The Execution
+I developed an end-to-end analytical solution using Advanced Excel and Power BI:
+* Data Sanitisation (ETL): Built a Power Query pipeline to clean 3,000+ records, reducing data variance by 91% and eliminating outliers that were skewing performance metrics.
+* Stochastic Modelling: Designed a 1,000-iteration Monte Carlo Simulation to stress-test the Aberdeen branch’s profitability, determining an 88.7% probability of meeting net profit targets.
+* Prescriptive Analytics: Applied Linear Programming (Simplex LP) via Excel Solver to optimise the supply chain, successfully identifying a global minimum delivery cost of £30,548.
+* Visualisation: Created an interactive Power BI Dashboard to visualise KPIs like Revenue per Square Foot and Promotional Lift, allowing stakeholders to drill down into departmental performance.
+3. The Results & Key Learnings:
+* Results: Identified £5k+ in potential logistical savings and provided a data-backed risk framework for regional expansion.
+* Technical Learning: Mastered the use of Solver for optimisation and DAX for complex measures in Power BI.
+* Business Learning: I learned how to translate "noisy" operational data into "Executive-Ready" insights, bridging the gap between raw numbers and strategic decision-making.
+
 
 ## 🛠️ 1. Data Integrity & ETL (Cleaning)
 **The Challenge:** Raw sales data contained extreme variance (£220k+ Std. Dev), threatening the accuracy of regional forecasts.
