@@ -6,17 +6,19 @@ As a Business Analyst consultant for Marks &amp; Spencer, I developed an end-to-
 This project delivers a robust analytical framework for Marks & Spencer’s regional leadership in Scotland. By integrating **Stochastic Risk Modeling** and **Linear Programming (Simplex LP)**, I developed a system to minimize logistics overheads and quantify financial risks across 9 key retail locations.
 
 ---
-**Business Challenge** 
+Business Challenge 
 The regional management team required a robust analytical tool to address:
 * Operational Variance: Inconsistent sales reporting that prevented accurate performance forecasting.
 * Logistical Inefficiency: Sub-optimal distribution routes leading to inflated regional transportation costs.
 * Risk Uncertainty: A lack of probabilistic modelling regarding branch-level net profit against fixed daily overheads.
-**Technical Methodology **
+
+Technical Methodology 
 * Data Engineering & ETL: Developed a robust Power Query pipeline to ingest and sanitise 3,000+ transaction records. Implemented outlier detection and sanitisation protocols that reduced data variance by 91%, ensuring a "Single Source of Truth" for reporting.
 * Prescriptive Analytics (Optimisation): Formulated a Linear Programming (Simplex LP) model via Excel Solver. Defined objective functions and constraints to minimise regional logistics expenditure, successfully identifying a global minimum delivery cost of £30,548.
 * Stochastic Risk Modelling: Engineered a 1,000-iteration Monte Carlo Simulation to stress-test the Aberdeen branch. This provided a probabilistic confidence interval showing an 88.7% success rate for meeting profitability targets under volatile market conditions.
 * Business Intelligence (BI): Architected an interactive Power BI Suite utilising complex DAX measures to visualise core KPIs, including Revenue per Square Foot and Promotional Lift Analysis.
-**Commercial Impact **
+
+Commercial Impact 
 * Cost Reduction: Identified a strategic path to reduce logistical overheads by 15% through optimised distribution.
 * Strategic Validation: Provided executive leadership with a risk-mitigation framework that converted raw operational data into actionable strategic insights.
 * Process Improvement: Automated the data cleaning and reporting workflow, reducing manual reporting time by approximately 40%.
